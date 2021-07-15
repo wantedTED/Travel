@@ -27,7 +27,14 @@ export default {
     return {
       swiperOption: {
         autoplay: false
-      }
+      },
+      iconList: [{
+        id: '0001',
+        imgurl: 'https://picbed.qunarzz.com/25e3b9f17a21a6e0113c57a23ffccde4.png',
+        desc: 'ticket'
+      }, {id: '0002',
+        imgurl: 'https://picbed.qunarzz.com/25e3b9f17a21a6e0113c57a23ffccde4.png',
+        desc: 'ticket'}]
     }
   },
   computed: {
